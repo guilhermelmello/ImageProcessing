@@ -151,7 +151,6 @@ def gen_parser():
 if __name__ == "__main__" :
 	
 	args = gen_parser()
-	
 	image = misc.imread(args.input_file)
 	
 	if not args.gray:
